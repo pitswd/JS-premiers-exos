@@ -12,7 +12,6 @@ function isUpperCase(input) {
     return input === input.toUpperCase() && input !== "";
 }
 
-//while(input !== "stop") {
 if (input.includes(question)){
 console.log (`Oué oué c'est ça...`)
 } 
@@ -32,5 +31,3 @@ else {
     console.log (`Balek`)
 }
 }
-//}
-//console.log(`Oué c'est ça casse toi`)
