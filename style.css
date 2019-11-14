@@ -1,0 +1,46 @@
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: spin 5s linear infinite;
+}
+
+@keyframes rainbow {
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+  }
+
+.rainbow-text {
+    font-size: 24px;
+    animation: rainbow 8s infinite;
+}
+
+body {
+    padding: 50px; 
+  }
+
+.spintitle {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
